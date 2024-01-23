@@ -1,0 +1,133 @@
+.nav-bar {
+  background: #181818;
+  width: 100px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 3;
+  min-height: 500px;
+  
+
+  .logo {
+    display: block;
+    padding: 8px 0;
+
+    img {
+      display: block;
+      margin: 8px auto;
+      width: 2vw;
+      height: auto;
+
+      &.sub-logo {
+        width: 2.5vw;
+      }
+    }
+  }
+
+  nav {
+    display: block;
+    text-align: center;
+    position: absolute;
+    height: 30vh;
+    top: 50%;
+    margin-top: -15vh;
+    width: 100%;
+
+    a {
+      font-size: 1.5vw;
+      color: #4d4d4e;
+      display: block;
+      line-height: 8vh;
+      height: 8vh;
+      position: relative;
+
+      i {
+        transition: all 0.3s ease-out;
+      }
+
+      &:hover {
+        color: limegreen;
+
+        svg {
+          opacity: 0;
+        }
+
+        &::after {
+          opacity: 1;
+        }
+      }
+
+      &:after {
+        content: '';
+        font-size: 20px;
+        letter-spacing: 2px;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        display: flex;
+        
+        text-align: center;
+        opacity: 0;
+        transition: all 0.3s ease-out;
+      }
+
+      &:first-child {
+        &::after {
+            padding-left: 20px;
+          content: 'HOME';
+        }
+      }
+    }
+
+    a.about-link {
+      &:after {
+        padding-left: 20px;
+        content: 'ABOUT';
+      }
+    }
+
+    a.contact-link {
+      &:after {
+        padding-left: 2px; 
+        content: 'CONTACT';
+      }
+    }
+
+    a.cv-link{
+      &:after{
+        padding-left: 35px;
+        content: 'CV';
+      }
+    }
+  }
+
+  a.active {
+    svg {
+      color: limegreen;
+    }
+  }
+}
+
+ul {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  display: block;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  margin: 0;
+
+  li {
+    a {
+      padding: 5px 0;
+      display: block;
+      font-size: 5em;
+      line-height: 1.5vh;
+
+      &:hover {
+        color: limegreen;
+      }
+    }
+  }
+}
