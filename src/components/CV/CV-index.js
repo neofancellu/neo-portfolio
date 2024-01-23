@@ -1,13 +1,16 @@
 import Loader from 'react-loaders'
 import './CV-index.scss'
 
-import CV_IMAGE from '../../assets/images/cv_image.png'
+import pdfurl from './Neo-Fancellu-CV.pdf'
+
 
 
 const CV = () =>{
+    const url = pdfurl
+
     return(
         <>
-        <img src={CV_IMAGE} alt='cv' className='CV' />
+        <iframe src={url} width="50%" height="98%" title='CV' className='CV' />
         <Loader type='cube-transition'/>   
         </>
     )

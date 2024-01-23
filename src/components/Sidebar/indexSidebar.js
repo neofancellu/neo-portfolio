@@ -28,7 +28,7 @@ const Sidebar = () =>(
         </nav>
         <ul>
             <li>
-                <a target="_blank" rel='norefferer' href='https://github.com/neofancellu'>
+                <a target="_blank" rel='norefferer noreferer' href='https://github.com/neofancellu'>
                     <FontAwesomeIcon icon={faGithub} color='#4d4d4e' />
                 </a>
             </li>
