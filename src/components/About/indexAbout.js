@@ -37,7 +37,7 @@ const About = () => {
           </p>
           <p>
             {' '}
-            I'm confident, with good communication skills, and enjoy being effective, by myselfor in a team. You can find my Github <a target="_blank" rel='norefferer noreferer' href='https://github.com/neofancellu'>here</a>  
+            I'm confident, with good communication skills, and enjoy being effective, by myself or in a team. You can find my Github <a target="_blank" rel='norefferer noreferer' href='https://github.com/neofancellu'>here</a>  
           </p>
           
           <br />

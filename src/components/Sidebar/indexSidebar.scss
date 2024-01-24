@@ -99,6 +99,14 @@
         content: 'CV';
       }
     }
+
+    a.projects-link{
+      &:after{
+        padding-left: 0;
+        font-size: 18px;
+        content: 'PROJECTS';
+      }
+    }
   }
 
   a.active {
