@@ -1,6 +1,6 @@
 .nav-bar {
   background: #181818;
-  width: 4%;
+  width: 5%;
   height: 100%;
   position: absolute;
   top: 0;
@@ -63,7 +63,7 @@
 
       &:after {
         content: '';
-        font-size: .8vw;
+        font-size: 1vw;
         letter-spacing: 2px;
         position: absolute;
         bottom: 0;
@@ -82,7 +82,7 @@
         
 
         &::after {
-            padding-left: .8vw;
+            padding-left: 1vw;
           content: 'HOME';
         }
       }
@@ -97,22 +97,22 @@
 
     a.contact-link {
       &:after {
-        padding-left: .1vw; 
+        padding-left: .12vw; 
         content: 'CONTACT';
       }
     }
 
     a.cv-link{
       &:after{
-        padding-left: 1.5vw;
+        padding-left: 1.7vw;
         content: 'CV';
       }
     }
 
     a.projects-link{
       &:after{
-        padding-left: 0.01vw;
-        font-size: .7vw;
+        padding-left: 0.03vw;
+        font-size: .9vw;
         content: 'PROJECTS';
       }
     }
