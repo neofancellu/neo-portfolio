@@ -1,6 +1,6 @@
 .nav-bar {
   background: #181818;
-  width: 100px;
+  width: 4%;
   height: 100%;
   position: absolute;
   top: 0;
@@ -54,12 +54,16 @@
 
         &::after {
           opacity: 1;
+
+          @media screen and (max-width: 1919px) {
+            opacity: 0;
+          }
         }
       }
 
       &:after {
         content: '';
-        font-size: 20px;
+        font-size: .8vw;
         letter-spacing: 2px;
         position: absolute;
         bottom: 0;
@@ -69,11 +73,16 @@
         text-align: center;
         opacity: 0;
         transition: all 0.3s ease-out;
+
+        
       }
 
       &:first-child {
+
+        
+
         &::after {
-            padding-left: 20px;
+            padding-left: .8vw;
           content: 'HOME';
         }
       }
@@ -81,29 +90,29 @@
 
     a.about-link {
       &:after {
-        padding-left: 20px;
+        padding-left: .7vw;
         content: 'ABOUT';
       }
     }
 
     a.contact-link {
       &:after {
-        padding-left: 2px; 
+        padding-left: .1vw; 
         content: 'CONTACT';
       }
     }
 
     a.cv-link{
       &:after{
-        padding-left: 35px;
+        padding-left: 1.5vw;
         content: 'CV';
       }
     }
 
     a.projects-link{
       &:after{
-        padding-left: 0;
-        font-size: 18px;
+        padding-left: 0.01vw;
+        font-size: .7vw;
         content: 'PROJECTS';
       }
     }
@@ -130,7 +139,7 @@ ul {
     a {
       padding: 5px 0;
       display: block;
-      font-size: 5em;
+      font-size: 2.5vw;
       line-height: 1.5vh;
 
       &:hover {

@@ -27,7 +27,7 @@ const Home = () => {
               idx={6}
             />
             <br />
-            <span className={`${letterClass} _12`}>I </span>
+            <span className={`${letterClass} _12`}>I</span>
             <span className={`${letterClass} _13`}>'</span>
             <span className={`${letterClass} _14`}>m</span>
             <img src={LogoTitle} alt="developer" />

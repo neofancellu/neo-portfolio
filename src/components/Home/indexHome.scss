@@ -19,43 +19,27 @@
     left: 10%;
     top: 50%;
     transform: translateY(-50%);
-    width:  60%;
+    width: 60%; 
+
     max-height: 90%;
   }
 
   h1 {
     color: #fff;
-    font-size: 96px;
+    font-size: 3.8vw;
     margin: 0;
     font-family: 'Coolvetica';
     font-weight: 400;
-    letter-spacing: 5px;
-
-    &::before {
-      content: '<h1>';
-      font-family: 'La Belle Aurore';
-      color: limegreen;
-      font-size: 18px;
-      position: absolute;
-      margin-top: -40px;
-      left: 15px;
-      opacity: 0;
+    
+    span{
+      letter-spacing: .18vw;
     }
-
-    &::after {
-      content: '<h1/>';
-      font-family: 'La Belle Aurore';
-      color: limegreen;
-      font-size: 18px;
-      position: absolute;
-      margin-top: 18px;
-      margin-left: 20px;
-      opacity: 0;
-    }
+    
+    
 
     img {
-      width: 72px;
-      margin-left: 20px;
+      width: 2.8vw;
+      margin-left: 0.8vw;
 
       height: auto;
 
@@ -64,25 +48,26 @@
 
   h2 {
     color: #8d8d8d;
-    margin-top: 20px;
+    margin-top: 1vh;
     font-weight: 400;
-    font-size: 32px;
+    font-size: 1.3vw;
     font-family: sans-serif;
-    letter-spacing: 3px;
+    letter-spacing: .13vw;
     animation: fadeIn 1s 1.8s backwards;
+    
   }
 
   .flat-button {
     color: limegreen;
-    font-size: 32px;
+    font-size: 1.3vw;
     font-weight: 400;
-    letter-spacing: 4px;
+    letter-spacing: .18vw;
     font-family: sans-serif;
     text-decoration: none;
-    padding: 10px 18px;
+    padding: 2% 7%;
     margin-right: 3vw;
     border: 1px solid limegreen;
-    margin-top: 25px;
+    margin-top: 1.2vh;
     float: left;
     animation: fadeIn 1s 1.8s backwards;
     white-space: nowrap;
