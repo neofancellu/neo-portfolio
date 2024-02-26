@@ -69,6 +69,18 @@ const Projects = () => {
             Repo here
           </a>
           <br />
+          <p>
+            To-Do List: Project made with c# in the .NET framework that also 
+            uses a database with SQLite to add, edit, save and delete entries to a database. You can see how it functions on my Github.
+          </p>
+          <a
+            target="_blank"
+            rel="norefferer noreferer noreferrer"
+            href="https://github.com/neofancellu/To-do-list-app"
+          >
+            Repo here
+          </a>
+          <br/>
           <p>You can find more projects on my</p>
           <a
             target="_blank"

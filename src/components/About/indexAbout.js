@@ -50,7 +50,7 @@ const About = () => {
           </h1>
           <p className="s">
             JavaScript, TypeScript, HTML5 + CSS, Bootstrap, React, React Native,
-            Nodejs, Python
+            Nodejs, Python, C# + .NET, SQL.
           </p>
         </div>
 

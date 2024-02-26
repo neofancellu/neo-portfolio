@@ -19,7 +19,7 @@
     }
 
     h1 {
-      font-size: 3.8vw;
+      font-size: 3.5vw;
       font-family: 'Coolvetica';
       color: limegreen;
       font-weight: 400;
@@ -35,7 +35,7 @@
 
 
     p{
-      font-size: 1.5vw;
+      font-size: 1.3vw;
       color: #fff;
       font-family: sans-serif;
       font-weight: 300;
@@ -43,7 +43,7 @@
       animation: pulse 1s;
       animation-delay: 1.5s;
       @media screen and (max-width: 768px) {
-        font-size: 3vw;
+        font-size: 2.6vw;
       }
       @media screen and (max-height: 901px) {
         margin-top: 4vh;
@@ -51,7 +51,7 @@
     }
     a{
         
-        font-size: 1.5vw;
+        font-size: 1.2vw;
         color: limegreen;
         font-family: sans-serif;
         font-weight: 300;
@@ -68,7 +68,7 @@
         animation: fadeIn 1s 1.8s backwards;
         
         @media screen and (max-width: 768px) {
-          font-size: 4vw;
+          font-size: 3.8vw;
         }
         
         
